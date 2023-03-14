@@ -1,4 +1,4 @@
-package FactoryMethod;
+package Factory.ShapeFactory;
 
 public class ShapeFactory {
     public Shape getShape(String shapeType){

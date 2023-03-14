@@ -1,4 +1,4 @@
-package FactoryMethod;
+package Factory.ShapeFactory;
 
 public class Square implements Shape{
     @Override
