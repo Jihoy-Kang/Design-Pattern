@@ -24,7 +24,7 @@ public class BufferProxyDisplay implements Display{
         if(screenDisplay == null){
             screenDisplay = new ScreenDisplay();
         }
-        String lines = String.join("\ n", buffer);
+        String lines = String.join("\n", buffer);
         screenDisplay.print(lines);
         buffer.clear();
     }
